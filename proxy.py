@@ -22,9 +22,9 @@ under = '\x1b[4m'
 
 def banner():
     os.system('clear')
-    print yw + '|  | |\\  | | \\    / ' + bold + wh + '| ' + lg + 'Tools Scan Proxy'
-    print yw + '|  | | \\ | |  \\  /  ' + bold + wh + '| ' + lg + 'New Powerfull Version 1.0'
-    print yw + '\\__/ |  \\| |   \\/   ' + bold + wh + '| ' + lg + 'Created By Sulaiman L\n' + wh
+    print yw + '| SL' + bold + wh + '| ' + lg + 'Tools Scan Proxy'
+    print yw + '| SL' + bold + wh + '| ' + lg + 'V1.0'
+    print yw + '| SL' + bold + wh + '| ' + lg + 'Created By Sulaiman L\n' + wh
 
 
 def pas1():
