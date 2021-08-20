@@ -13,6 +13,7 @@ pip2 install --upgrade pip
 apt install git
 pip2 install http.client
 pip2 install requests
+pip2 install bs4
 ```
 - **Jika Sudah,Jalankan Kode Berikut Untuk Menjalankan Tools `ScanProxy`**
 ```
