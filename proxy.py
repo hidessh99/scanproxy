@@ -23,7 +23,7 @@ under = '\x1b[4m'
 def banner():
     os.system('clear')
     print yw + '| SL' + bold + wh + '| ' + lg + 'Tools Scan Proxy'
-    print yw + '| SL' + bold + wh + '| ' + lg + 'V1.0'
+    print yw + '| SL' + bold + wh + '| ' + lg + 'V1.1'
     print yw + '| SL' + bold + wh + '| ' + lg + 'Created By Sulaiman L\n' + wh
 
 
@@ -130,7 +130,7 @@ def main():
                 a += 1
                 op.write(pr + '\n')
             elif ngab.status_code == 403:
-                print wh + '[' + lg + wkt + wh + '] ' + lc + pr + wh + ' is ' + lr + 'close (403)'
+                print wh + '[' + lg + wkt + wh + '] ' + lc + pr + wh + ' is ' + lr + 'open (403)'
                 a += 1
                 cl.write(pr + '\n')
             elif ngab.status_code == 401:
@@ -399,7 +399,7 @@ def auto(ip, nama):
                 a += 1
                 op.write(pr + '\n')
             elif ngab.status_code == 403:
-                print wh + '[' + lg + wkt + wh + '] ' + lc + pr + wh + ' is ' + lr + 'close (403)'
+                print wh + '[' + lg + wkt + wh + '] ' + lc + pr + wh + ' is ' + lr + 'open (403)'
                 a += 1
                 cl.write(pr + '\n')
             elif ngab.status_code == 401:
