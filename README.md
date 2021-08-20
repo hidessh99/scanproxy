@@ -17,7 +17,7 @@ pip2 install bs4
 ```
 - **Jika Sudah,Jalankan Kode Berikut Untuk Menjalankan Tools `ScanProxy`**
 ```
-git clone https://github.com/sulaimanx/scanproxytermux
+git clone https://github.com/fisabiliyusri/scanproxytermux
 cd scanproxytermux
 python -m pip install -r requirements.txt
 python2 proxy.py
