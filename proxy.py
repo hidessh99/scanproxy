@@ -24,7 +24,7 @@ def banner():
     os.system('clear')
     print yw + '| SL' + bold + wh + '| ' + lg + 'Tools Scan Proxy'
     print yw + '| SL' + bold + wh + '| ' + lg + 'V1.1'
-    print yw + '| SL' + bold + wh + '| ' + lg + 'Created By Sulaiman L\n' + wh
+    print yw + '| SL' + bold + wh + '| ' + lg + 'Created By HideSSH\n' + wh
 
 
 def pas1():
